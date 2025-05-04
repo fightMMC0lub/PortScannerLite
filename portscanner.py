@@ -1,11 +1,11 @@
-
----
-
-### 🐍 `portscanner.py` (basic version for now and I m tryn to add somme useful features ....)
 import socket
 import threading
 import argparse
+import os
 from datetime import datetime
+
+# Ensure results folder exists
+os.makedirs("results", exist_ok=True)
 
 def scan_port(ip, port):
     try:
