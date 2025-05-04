@@ -18,7 +18,7 @@ A simple Python-based port scanner that checks for open ports on a target IP add
 ### Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/PortScannerLite.git
+git clone https://github.com/fightMMC0lub/PortScannerLite.git
 cd PortScannerLite
 
 ```
