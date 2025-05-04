@@ -44,7 +44,7 @@ python portscanner.py --host 192.168.1.1 --start 1 --end 1024
 | `--start` | Start of port range (default: 1)    | `--start 1`          |
 | `--end`   | End of port range (default: 1024)   | `--end 1024`         |
 
-### you find your Output on this file  
+### you can find your Output on this file  
 
 ```bash
 results/scan_report.txt
