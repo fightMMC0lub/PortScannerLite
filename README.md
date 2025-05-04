@@ -4,7 +4,7 @@ A simple Python-based port scanner that checks for open ports on a target IP add
 
 ---
 
-## 🚀 Features
+### 🚀 Features
 
 - Scan a host for open ports
 - Multithreading for faster scanning
@@ -23,7 +23,7 @@ cd PortScannerLite
 
 ```
 
-#Install dependencies:
+### Install dependencies:
 
 ```bash
 pip install -r requirements.txt
@@ -44,11 +44,11 @@ python portscanner.py --host 192.168.1.1 --start 1 --end 1024
 | `--start` | Start of port range (default: 1)    | `--start 1`          |
 | `--end`   | End of port range (default: 1024)   | `--end 1024`         |
 
-#Output
+### Output
 
 ```bash
 results/scan_report.txt
 
 ```
-#⚠️ Disclaimer
+### ⚠️ Disclaimer
 This tool is for educational use only.do not scan devices or domains you don’t own or don’t have permission to scan.
